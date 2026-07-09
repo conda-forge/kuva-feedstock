@@ -1,11 +1,11 @@
 context:
-  version: "0.3.0"
+  version: "0.4.0"
 package:
   name: kuva
   version: ${{ version }}
 source:
   url: https://github.com/Psy-Fer/kuva/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: ccdea3591c24c95ab2107d747ced8930fe1f10cf640df02eec6d207926707a5c
+  sha256: 434b99522536df1ac8e574c2b10dc8fed352fffc3c7c506a11666eff2e309693
 build:
   number: 0
   script:
