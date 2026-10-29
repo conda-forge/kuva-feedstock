@@ -7,7 +7,7 @@ source:
   url: https://github.com/Psy-Fer/kuva/archive/refs/tags/v${{ version }}.tar.gz
   sha256: e81b2b871bb74ade3e81713dd05a830ffd5af7bc606bdfd571f4cee2ef56fa8c
 build:
-  number: 0
+  number: 1
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
